@@ -12,10 +12,8 @@ Many diseases, particularly cancers and cardiovascular conditions, change how st
 Ultrasound elastography maps this stiffness difference non-invasively by measuring how tissue deforms under applied mechanical pressure or how shear waves propagate through it. ELASTOLAB builds the complete computational pipeline for this — from the physics of wave propagation through to machine learning classification of the resulting elastographic data.
 
 ## **Architecture**
-````markdown
-### Architecture
 
-```text
+````markdown
 PHYSICS LAYER
   │
   ├── Tissue Stiffness Model
