@@ -86,7 +86,7 @@ The ablation study in Cell 19 proves empirically that each loss term (data, phys
 
 **Cell 8** trains a dual-channel CNN accepting concatenated B-mode and strain map as input, combining the morphological information from B-mode with the mechanical information from the strain map in a single end-to-end trainable model.
 
-**Cell 9** is the core above-IIT contribution implementing the PINN. The network takes spatial coordinates as input and predicts Young's modulus at each point. The physics loss enforces consistency with soft tissue mechanics. The system reconstructs full stiffness maps from only thirty sparse training points.
+**Cell 9** is implementing the PINN. The network takes spatial coordinates as input and predicts Young's modulus at each point. The physics loss enforces consistency with soft tissue mechanics. The system reconstructs full stiffness maps from only thirty sparse training points.
 
 **Cell 10** empirically compares PINN against a standard neural network of identical architecture across multiple sparsity levels, proving the physics constraint provides the largest benefit when training data is scarcest.
 
