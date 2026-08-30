@@ -140,6 +140,8 @@ Track three — machine learning for stiffness maps and diagnostic scores — is
 
 The PINN contribution is the most technically novel element — it connects the wave mechanics (track two) directly to the machine learning (track three) by encoding the physics as a constraint rather than treating it as a separate simulation step. This is the kind of physics-informed computational approach that characterises modern biomedical engineering research.
 
+Independent pre-study inspired by the Virtual Ultrasound Lab internship project description at IIT Bombay.
+
 ## **About the Author**
 Nifla Nalakath |
 BTech in CSE |
